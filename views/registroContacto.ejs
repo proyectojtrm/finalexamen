@@ -1,0 +1,15 @@
+<form method="post" action="guardarContacto">
+    <label for="nombres" class="rem">Nombres:</label>
+    <input type="text" id="nombres" name="contacto[nombres]" value="<%= agenda.nombres %>">
+    <div>
+        <label for="post" class="rem">Post:</label>
+        <input type="text" id="post" name="contacto[post]"
+         value="<%= agenda.post %>">
+    </div>
+    <div>
+        <input type="submit" name="envio" value="Registrar Contacto">
+     </div> 
+</form>
+
+
+
